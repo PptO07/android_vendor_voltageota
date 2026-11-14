@@ -1,3 +1,30 @@
+VoltageOS 6.3
+Build Date: 14/11/2026
+Device:
+- Update Adreno/Vulkan blobs to V837.0.6
+- Update WFD system blobs from marvel_g A171WEH.20 (Fix cust)
+- Add support for LHDC codec audio routes
+- Fix ViperFX Global mode (AML Not needed anymore)
+- Fix display flickering at low brightness
+- Move task profiles to foreground cpuset
+- Rework cpuset configuration
+- Rework power config
+- Tune WALT scheduler parameters
+- Preserve hardware CPU minimum frequencies
+- Drop unused QNN V75, bm4a and misc blobs
+- Label some more sepolicy denials
+
+Kernel:
+- Bump Chidori Version to v2.3
+- Merge tag 'ASB-2026-11-02_14-6.1' of https://android.googlesource.com/kernel/common
+- Merge branch 'android14-6.1-lts' of https://android.googlesource.com/kernel/common
+- Rewrite Kprofiles driver
+- Kprofiles: Add battery-aware wake grace
+- Merge LZ4 upstream dev at f6dceddc9521
+- qti_battery_charger: Preserve user-selected fastcharge mode (fix slow mode stack even if fast is selected)
+
+-----------------------------------------------------------
+
 VoltageOS 6.2
 Build Date: 18/10/2026
 Device:
