@@ -1,4 +1,12 @@
 =========================
+VoltageOS 6.3
+
+Build Date : 19/11/2026
+
+Kernel Side :
+ - Merge LineageOS common qcom sm8150 kernel changes
+
+=========================
 VoltageOS 6.2
 
 Build Date : 22/10/2026
